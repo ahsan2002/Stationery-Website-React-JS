@@ -18,7 +18,7 @@ const Books = () => {
                             return (
                                 <>
                                     <div className="first">
-                                        <img width="200px" height="150px" src={elem.img} alt="" />
+                                        <img style={{borderRadius:"20px"}} width="200px" height="150px" src={elem.img} alt="" />
                                         <p>{elem.des}</p>
                                         <p><b>{elem.price}</b></p>
                                     </div>

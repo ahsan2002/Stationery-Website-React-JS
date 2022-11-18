@@ -37,3 +37,25 @@
     width: 100%;
     gap: 40px;
 }
+
+
+.btn{
+    text-align: center;
+    margin: 20px;
+}
+
+.btn button{
+    padding: 8px;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+    background-color:rgb(247, 226, 195);
+    border: 2px solid black;
+}
+
+.btn button:hover{
+    color: white;
+    background-color:rgb(237, 189, 118);
+    font-weight: bold;
+
+}
