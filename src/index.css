@@ -1,0 +1,39 @@
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px;
+    height: 40vh;
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 50px;
+    background: url(/public/images/main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center ;
+}
+
+.heading{
+    box-shadow: 5px 5px 5px 5px grey;
+    border-radius: 50px;
+    margin: 20px;
+    margin-top: 50px;
+    background-color: lightgray;
+    padding: 10px;
+}
+
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.journals{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100%;
+    gap: 40px;
+}
