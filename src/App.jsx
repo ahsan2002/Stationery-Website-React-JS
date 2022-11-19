@@ -7,10 +7,10 @@ import Journal from './Components/Journal';
 const App = () => {
   return (
     <>
-    <Header/>
-    <Journal/>
-    <Books/>
-    <Footer/>
+      <Header />
+      <Journal />
+      <Books />
+      <Footer />
     </>
   )
 }

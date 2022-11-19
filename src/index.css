@@ -1,4 +1,4 @@
-.main{
+.main {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,10 +10,10 @@
     background: url(/public/images/main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center ;
+    background-position: center;
 }
 
-.heading{
+.heading {
     box-shadow: 5px 5px 5px 5px grey;
     border-radius: 50px;
     margin: 20px;
@@ -22,13 +22,13 @@
     padding: 10px;
 }
 
-.head{
+.head {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.journals{
+.journals {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -39,34 +39,35 @@
 }
 
 
-.btn{
+.btn {
     text-align: center;
     margin: 20px;
 }
 
-.btn button{
+.btn button {
     padding: 8px;
     border-radius: 10px;
     font-size: 15px;
     cursor: pointer;
-    background-color:rgb(247, 226, 195);
+    background-color: rgb(247, 226, 195);
     border: 2px solid black;
 }
 
-.btn button:hover{
+.btn button:hover {
     color: white;
-    background-color:rgb(237, 189, 118);
+    background-color: rgb(237, 189, 118);
     font-weight: bold;
 
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     background: url(/public/images/footer.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:center ;
+    background-position: center;
     border-radius: 50px;
     box-shadow: 5px 5px 5px 5px gray;
     gap: 50px;
@@ -75,6 +76,7 @@
     margin-top: 50px;
     margin-bottom: 35px;
 }
+
 .category li {
     list-style: none;
     margin: 8px;
@@ -86,13 +88,13 @@
 }
 
 
-.last{
+.last {
     color: black;
     text-align: justify;
     margin-top: -50px;
 }
 
-.last input{
+.last input {
     border: none;
     border-bottom: 1px solid black;
     background: transparent;
@@ -100,18 +102,27 @@
     font-weight: bold;
 }
 
-.mybtn{
+.last input:focus {
+    outline: none;
+}
+
+.mybtn {
     text-align: center;
 }
 
-.mybtn button{
-        padding: 10px;
-        margin-top: 10px;
-        background-color: black;
-        color: white;
+.mybtn button {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    border: none;
 }
 
-.icons{
+.mybtn button:hover {
+    cursor: pointer;
+}
+
+.icons {
     display: flex;
     gap: 5px;
     justify-content: center;

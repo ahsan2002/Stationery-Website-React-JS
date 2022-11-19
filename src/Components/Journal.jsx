@@ -18,7 +18,7 @@ const Journal = () => {
                             return (
                                 <>
                                     <div className="first">
-                                        <img style={{borderRadius:"20px"}} width="200px" height="150px" src={elem.img} alt="" />
+                                        <img style={{ borderRadius: "15px" }} width="200px" height="150px" src={elem.img} alt="" />
                                         <p>{elem.des}</p>
                                         <p><b>{elem.price}</b></p>
                                     </div>

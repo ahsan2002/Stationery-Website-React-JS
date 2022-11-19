@@ -2,9 +2,9 @@ import React from 'react';
 import Data1 from '../Data1';
 
 const Books = () => {
-  return (
-    <>
-            <div className="heading" style={{backgroundColor:"lightblue"}}>
+    return (
+        <>
+            <div className="heading" style={{ backgroundColor: "lightblue" }}>
 
                 <div className="head">
                     <p>---------</p>
@@ -18,7 +18,7 @@ const Books = () => {
                             return (
                                 <>
                                     <div className="first">
-                                        <img style={{borderRadius:"20px"}} width="200px" height="150px" src={elem.img} alt="" />
+                                        <img style={{ borderRadius: "15px" }} width="200px" height="150px" src={elem.img} alt="" />
                                         <p>{elem.des}</p>
                                         <p><b>{elem.price}</b></p>
                                     </div>
@@ -29,7 +29,7 @@ const Books = () => {
                 </div>
             </div>
         </>
-  )
+    )
 }
 
 export default Books;
